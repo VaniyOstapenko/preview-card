@@ -289,8 +289,8 @@ header nav p:not(:last-child) {
     background-image: url(../assets/Marico.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 153px;
-    height: 56px;
+    width: 350px;
+    height: 100px;
     margin-top: 122px;
 }
 
@@ -309,4 +309,6 @@ header nav p:not(:last-child) {
     text-align: center;
     padding: 20px 0;
     margin-top: 50px;
+    position: relative;
+    right: 10;
 }
