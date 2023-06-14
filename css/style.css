@@ -155,6 +155,7 @@ header nav p:not(:last-child) {
     font: 800 46px 'Mulish';
     text-align: center;
     color: #001A49;
+    width: 637px;
     margin-top: 194px;
 }
 
@@ -164,4 +165,10 @@ header nav p:not(:last-child) {
     color: #4F596A;
     margin-top: 1px;
     width: 560px;
+}
+
+.our-advantages div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
