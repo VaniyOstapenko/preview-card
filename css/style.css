@@ -150,3 +150,18 @@ header nav p:not(:last-child) {
     left: 200px;
     z-index: 0;
 }
+
+.our-advantages div h1 {
+    font: 800 46px 'Mulish';
+    text-align: center;
+    color: #001A49;
+    margin-top: 194px;
+}
+
+.our-advantages div p {
+    font: 400 20px 'Mulish';
+    text-align: center;
+    color: #4F596A;
+    margin-top: 1px;
+    width: 560px;
+}
