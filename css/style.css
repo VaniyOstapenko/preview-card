@@ -180,6 +180,7 @@ header nav p:not(:last-child) {
     width: 100%;
     height: 172px;
     margin-top: 61px;
+    display: flex;
 }
 
 .second {
@@ -189,6 +190,7 @@ header nav p:not(:last-child) {
     margin-top: 30px;
     width: 100%;
     height: 172px;
+    display: flex;
 }
 
 .third {
@@ -198,6 +200,7 @@ header nav p:not(:last-child) {
     margin-top: 30px;
     width: 100%;
     height: 172px;
+    display: flex;
 }
 
 .fourth {
@@ -207,6 +210,7 @@ header nav p:not(:last-child) {
     margin-top: 30px;
     width: 100%;
     height: 172px;
+    display: flex;
 }
 
 .first div h3 {
@@ -262,4 +266,15 @@ header nav p:not(:last-child) {
     color: #4F596A;
     margin-top: 20px;
     padding-left: 130px;
+}
+
+.circle {
+    background-image: url(../assets/Group\ 8.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 64px;
+    height: 64px;
+    margin: 39px 0 0 46px;
+    position: absolute;
+    left: 400px;
 }
