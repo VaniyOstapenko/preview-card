@@ -209,25 +209,25 @@ header nav p:not(:last-child) {
     height: 172px;
 }
 
-.first h3 {
+.first div h3 {
     font: 800 24px 'Mulish';
     color: #001A49;
     padding: 39px 0 0 130px;
 }
 
-.second h3 {
+.second div h3 {
     font: 800 24px 'Mulish';
     color: #001A49;
     padding: 39px 0 0 130px;
 }
 
-.third h3 {
+.third div h3 {
     font: 800 24px 'Mulish';
     color: #001A49;
     padding: 39px 0 0 130px;
 }
 
-.fourth h3 {
+.fourth div h3 {
     font: 800 24px 'Mulish';
     color: #001A49;
     padding: 39px 0 0 130px;
