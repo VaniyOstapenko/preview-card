@@ -172,3 +172,39 @@ header nav p:not(:last-child) {
     flex-direction: column;
     align-items: center;
 }
+
+.first {
+    background: #EEF7FF;
+    mix-blend-mode: normal;
+    border-radius: 21px;
+    margin-top: 61px;
+    width: 1120px;
+    height: 172px;
+}
+
+.second {
+    background: #EEF7FF;
+    mix-blend-mode: normal;
+    border-radius: 21px;
+    margin-top: 30px;
+    width: 1120px;
+    height: 172px;
+}
+
+.third {
+    background: #EEF7FF;
+    mix-blend-mode: normal;
+    border-radius: 21px;
+    margin-top: 30px;
+    width: 1120px;
+    height: 172px;
+}
+
+.fourth {
+    background: #EEF7FF;
+    mix-blend-mode: normal;
+    border-radius: 21px;
+    margin-top: 30px;
+    width: 1120px;
+    height: 172px;
+}
