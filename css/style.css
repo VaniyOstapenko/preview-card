@@ -177,9 +177,9 @@ header nav p:not(:last-child) {
     background: #EEF7FF;
     mix-blend-mode: normal;
     border-radius: 21px;
-    margin-top: 61px;
-    width: 1120px;
+    width: 100%;
     height: 172px;
+    margin-top: 61px;
 }
 
 .second {
@@ -187,7 +187,7 @@ header nav p:not(:last-child) {
     mix-blend-mode: normal;
     border-radius: 21px;
     margin-top: 30px;
-    width: 1120px;
+    width: 100%;
     height: 172px;
 }
 
@@ -196,7 +196,7 @@ header nav p:not(:last-child) {
     mix-blend-mode: normal;
     border-radius: 21px;
     margin-top: 30px;
-    width: 1120px;
+    width: 100%;
     height: 172px;
 }
 
@@ -205,6 +205,61 @@ header nav p:not(:last-child) {
     mix-blend-mode: normal;
     border-radius: 21px;
     margin-top: 30px;
-    width: 1120px;
+    width: 100%;
     height: 172px;
+}
+
+.first h3 {
+    font: 800 24px 'Mulish';
+    color: #001A49;
+    padding: 39px 0 0 130px;
+}
+
+.second h3 {
+    font: 800 24px 'Mulish';
+    color: #001A49;
+    padding: 39px 0 0 130px;
+}
+
+.third h3 {
+    font: 800 24px 'Mulish';
+    color: #001A49;
+    padding: 39px 0 0 130px;
+}
+
+.fourth h3 {
+    font: 800 24px 'Mulish';
+    color: #001A49;
+    padding: 39px 0 0 130px;
+}
+
+.first p {
+    font: 400 16px 'Mulish';
+    color: #4F596A;
+    width: 1000px;
+    margin-top: 20px;
+    padding-left: 130px;
+}
+
+.second p {
+    font: 400 16px 'Mulish';
+    color: #4F596A;
+    width: 1000px;
+    margin-top: 20px;
+    padding-left: 130px;
+}
+
+.third p {
+    font: 400 16px 'Mulish';
+    color: #4F596A;
+    width: 1000px;
+    margin-top: 20px;
+    padding-left: 130px;
+}
+
+.fourth p {
+    font: 400 16px 'Mulish';
+    color: #4F596A;
+    margin-top: 20px;
+    padding-left: 130px;
 }
