@@ -3,7 +3,8 @@
     src: url(../css/fonts/Mulish-Black.ttf) format(truetype),
         url(../css/fonts/Mulish-Bold.ttf) format(truetype),
         url(../css/fonts/Mulish-ExtraBold.ttf) format(truetype),
-        url(../css/fonts/Mulish-Regular.ttf) format(truetype);
+        url(../css/fonts/Mulish-Regular.ttf) format(truetype),
+        url(../css/fonts/Poppins-Medium.ttf);
 }
 
 * {
@@ -292,6 +293,7 @@ header nav p:not(:last-child) {
     width: 350px;
     height: 100px;
     margin-top: 122px;
+    margin-left: 200px;
 }
 
 .almost-the-end h1 {
@@ -311,4 +313,40 @@ header nav p:not(:last-child) {
     margin-top: 50px;
     position: relative;
     right: 10;
+}
+
+.slash-second {
+    background-image: url(../assets/Marico.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 79px;
+    height: 56px;
+    margin-top: 122px;
+}
+
+footer h1 {
+    font: 800 37px 'Mulish';
+    color: #001A49;
+    margin: 129px 0 0 8px;
+}
+
+footer p {
+    font: 500 27px 'Mulish';
+    color: #707070;
+}
+
+.paragraph {
+    font: 500 28px 'Poppins';
+    color: #707070;
+    margin-top: 151px;
+}
+
+.article {
+    display: flex;
+}
+
+.prime {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
