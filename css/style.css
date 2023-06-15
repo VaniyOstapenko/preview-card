@@ -3,8 +3,12 @@
     src: url(../css/fonts/Mulish-Black.ttf) format(truetype),
         url(../css/fonts/Mulish-Bold.ttf) format(truetype),
         url(../css/fonts/Mulish-ExtraBold.ttf) format(truetype),
-        url(../css/fonts/Mulish-Regular.ttf) format(truetype),
-        url(../css/fonts/Poppins-Medium.ttf);
+        url(../css/fonts/Mulish-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../css/fonts/Poppins-Medium.ttf) format(truetype);
 }
 
 * {
@@ -25,6 +29,7 @@ header {
     justify-content: space-between;
     padding: 37px 0;
     align-items: center;
+    width: 1220px;
 }
 
 header nav {
@@ -37,6 +42,7 @@ header nav {
     background-size: contain;
     width: 124px;
     height: 38px;
+    max-width: 90%;
 }
 
 header nav p {
@@ -349,4 +355,144 @@ footer p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .introductory {
+        margin-top: 50px;
+    }
+
+    .introductory .video {
+        display: none;
+    }
+
+    .introductory h1 {
+        font: 600 40px 'Mulish';
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .introductory p {
+        font: 400 15px 'Mulish';
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .button {
+        width: 100%;
+        margin: auto;
+    }
+
+    .statistic {
+        margin-top: 70px;
+    }
+
+    .statistic .oval {
+        display: none;
+    }
+
+    .statistic .info {
+        flex-direction: column;
+        align-items: center;
+        background-color: #F5F5F5;
+        border-width: 0;
+    }
+
+    .info div:not(:last-child) {
+        border-width: 0;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .our-advantages div h1 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .our-advantages div p {
+        width: 100%;
+    }
+
+    .info div {
+        width: 100%;
+    }
+
+    footer h1 {
+        width: 100%;
+    }
+
+    footer p {
+        width: 100%;
+    }
+
+    .first p {
+        width: 100%;
+    }
+
+    .second p {
+        width: 100%;
+    }
+
+    .third p {
+        width: 100%;
+    }
+
+    .fourth p {
+        width: 100%;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .slash {
+        display: none;
+    }
+
+    .slash-second {
+        display: none;
+    }
+
+    .check {
+        width: 100%;
+        margin: auto;
+    }
+
+    .article {
+        display: none;
+    }
+
+    .prime {
+        flex-direction: column;
+    }
+
+    .almost-the-end h1 {
+        text-align: center;
+    }
+
+    .paragraph {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .border {
+        width: 100%;
+        text-align: center;
+    }
+
 }
